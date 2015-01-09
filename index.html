@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<title>AAU Test Site</title> 
+<link rel="stylesheet" href="css/scroll-aau.css" type"text/css"> 
+
+
+<script> 
+	(document).ready(function(){
+	$(".main").onepage_scroll({
+		sectionContainer:"section", 
+		loop:true, 
+		responsiveFallback:false
+	});
+	});
+</script> 
+
+
+</head>
+
+<body> 
+	
+
+	<ul class="onepage-pagination stay"> 
+		<li> 
+			<a data-index="1" href="#1" > 1 </a> </li> 
+		<li> 
+			<a data-index="2" href="#2"> 2 </a> </li> 
+		<li> 
+			<a data-index="3" href="#3"> 3 </a> </li> 
+	</ul> 
+
+<div class="main onepage-wrapper"> 
+
+	<section class="pageone" data-index="1">
+
+			<h1> this is a test</h1> 
+	</section> 
+
+
+	<section class="pagetwo" data-index="2">
+		<h1>Ha ha ha </h1> 
+	</section> 
+
+	<section class="pagethree" data-index="3" > 
+
+		<h2> does it work </h2> 
+	</section> 
+
+
+
+</div> 
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/js-scroll-min.js" type="text/JavaScript"> </script>
+
+
+<script> 
+//One Page Scroll function
+	$(function (){
+		$(".main").onepage_scroll({
+			sectionContainer:"section",
+			easing:"ease",
+
+			animationTime:1000,
+			pagination: true, 
+			updateURL: false,
+			beforeMove: function(index){},
+			afterMove: function(index){},
+			loop:false,
+			keyboard:true,
+			responsiveFallback: false, 
+
+			direction:"vertical"
+		});
+	});
+</script> 
+
+</body> 
+
+
+</html> 
