@@ -74,7 +74,11 @@ a {
   color: #e13935; }
 
 .viewing-page-1 {
-  background-image: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg"); }
+  background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .pageone h2 {
   font-size: 70px;

@@ -56,7 +56,13 @@ $largest-font:70px;
 
 
 
-.viewing-page-1{background-image:url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg");}
+.viewing-page-1{
+background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
 .pageone{
 
 	h2{font-size:$largest-font;
