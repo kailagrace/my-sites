@@ -88,7 +88,7 @@ a {
   margin-top: 35px;
   position: relative;
   margin-left: 15%; }
-.pageone #it-campaign {
+.pageone .it-campaign {
   margin-top: 5%; }
 .pageone .uconn-logo {
   width: 10%;
@@ -100,10 +100,8 @@ a {
   float: right; }
 
 .viewing-page-2 {
-  background-image: "/img/boston-childrens-hospital.jpg"; }
-
-.pagetwo {
-  background-image: "/img/boston-childrens-hospital.jpg"; }
-
-.pagethree {
-  background-color: white; }
+  background: url("https://pbs.twimg.com/media/B11s0WlIYAAZ2M7.jpg:large") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }

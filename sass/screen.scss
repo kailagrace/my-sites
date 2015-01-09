@@ -76,7 +76,7 @@ background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe5
 		margin-left:15%;
 	}
 
-	#it-campaign{margin-top:5%;}
+	.it-campaign{margin-top:5%;}
 
 	.uconn-logo{width:10%;
 				margin-right:60%;
@@ -87,8 +87,14 @@ background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe5
 							float:right;}
 }
 
-.viewing-page-2{background-image:"/img/boston-childrens-hospital.jpg";}
-.pagetwo{background-image:"/img/boston-childrens-hospital.jpg";}
-.pagethree{background-color:white;}
+.viewing-page-2{
+	background: url("https://pbs.twimg.com/media/B11s0WlIYAAZ2M7.jpg:large") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+.pagetwo{}
+.pagethree{}
 
 .page-one{}
