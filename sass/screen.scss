@@ -4,3 +4,85 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+//==variables initialized==//
+
+$dark-blue: #113470;
+$red: #e13935;
+
+$font-stack-main:'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+
+//=====general sass targets=======//
+
+body{
+	background-color:$dark-blue;
+	margin:5% 5% 5% 5%;
+	color:white;
+	font-family:$font-stack-main;
+}
+
+a{color:white;}
+.onepage-pagination-stay{color:white;}
+
+//===placement===//
+
+.float-left{float:left;}
+.float-right{float:right;
+}
+
+//===type===//
+
+.text-bold{font-weight:bold;}
+.red{color:$red;}
+
+
+//==font sizes==//
+$smallest-font: 12px;
+$smaller-font: 14px;
+$small-font: 16px;
+$mid-small-font: 20px;
+$medium-font: 24px;
+$mid-large-font: 28px;
+$large-font: 34px;
+$larger-font: 45px;
+$very-large-font:60px;
+$largest-font:70px;
+
+
+//=======page-specific=======//
+
+
+
+
+.viewing-page-1{background-image:url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg");}
+.pageone{
+
+	h2{font-size:$largest-font;
+		margin-left:15%;
+		}
+
+	#page-one-content{
+		width:50%;
+		margin-top: 35px;
+		position:relative;
+		margin-left:15%;
+	}
+
+	#it-campaign{margin-top:5%;}
+
+	.uconn-logo{width:10%;
+				margin-right:60%;
+				float:left;}
+
+	.innovation-credentials{width:20%;
+							margin-left:60%;
+							float:right;}
+}
+
+.viewing-page-2{background-image:"/img/boston-childrens-hospital.jpg";}
+.pagetwo{background-image:"/img/boston-childrens-hospital.jpg";}
+.pagethree{background-color:white;}
+
+.page-one{}

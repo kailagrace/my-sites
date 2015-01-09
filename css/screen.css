@@ -48,3 +48,58 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
+
+body {
+  background-color: #113470;
+  margin: 5% 5% 5% 5%;
+  color: white;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+a {
+  color: white; }
+
+.onepage-pagination-stay {
+  color: white; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.text-bold {
+  font-weight: bold; }
+
+.red {
+  color: #e13935; }
+
+.viewing-page-1 {
+  background-image: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe50e9.jpg"); }
+
+.pageone h2 {
+  font-size: 70px;
+  margin-left: 15%; }
+.pageone #page-one-content {
+  width: 50%;
+  margin-top: 35px;
+  position: relative;
+  margin-left: 15%; }
+.pageone #it-campaign {
+  margin-top: 5%; }
+.pageone .uconn-logo {
+  width: 10%;
+  margin-right: 60%;
+  float: left; }
+.pageone .innovation-credentials {
+  width: 20%;
+  margin-left: 60%;
+  float: right; }
+
+.viewing-page-2 {
+  background-image: "/img/boston-childrens-hospital.jpg"; }
+
+.pagetwo {
+  background-image: "/img/boston-childrens-hospital.jpg"; }
+
+.pagethree {
+  background-color: white; }
