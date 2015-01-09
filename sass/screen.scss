@@ -13,31 +13,6 @@ $red: #e13935;
 $font-stack-main:'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 
-
-//=====general sass targets=======//
-
-body{
-	background-color:$dark-blue;
-	margin:5% 5% 5% 5%;
-	color:white;
-	font-family:$font-stack-main;
-}
-
-a{color:white;}
-.onepage-pagination-stay{color:white;}
-
-//===placement===//
-
-.float-left{float:left;}
-.float-right{float:right;
-}
-
-//===type===//
-
-.text-bold{font-weight:bold;}
-.red{color:$red;}
-
-
 //==font sizes==//
 $smallest-font: 12px;
 $smaller-font: 14px;
@@ -51,8 +26,40 @@ $very-large-font:60px;
 $largest-font:70px;
 
 
-//=======page-specific=======//
+//=====general sass targets=======//
 
+body{
+	background-color:$dark-blue;
+	margin:5% 5% 5% 5%;
+	color:white;
+	font-family:$font-stack-main;
+}
+
+a{color:white;}
+.onepage-pagination-stay{color:white;}
+
+
+h2{
+	font-size:$largest-font;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+		}
+
+//===placement===//
+
+.float-left{float:left;}
+.float-right{float:right;
+}
+
+//===type===//
+
+.text-bold{font-weight:bold;}
+.red{color:$red;}
+
+
+//=======page-specific=======//
 
 
 
@@ -65,15 +72,12 @@ background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe5
 
 .pageone{
 
-	h2{font-size:$largest-font;
-		margin-left:15%;
-		}
 
 	#page-one-content{
 		width:50%;
 		margin-top: 35px;
 		position:relative;
-		margin-left:15%;
+		margin-left:25%;
 	}
 
 	.it-campaign{margin-top:5%;}
@@ -94,7 +98,12 @@ background: url("http://www.dtelepathy.com/img/philosophy/bg-create-impact-17fe5
   -o-background-size: cover;
   background-size: cover;}
 
-.pagetwo{}
+.pagetwo{
+
+		h2{margin-top:20%;}
+
+
+}
 .pagethree{}
 
 .page-one{}

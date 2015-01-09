@@ -61,6 +61,13 @@ a {
 .onepage-pagination-stay {
   color: white; }
 
+h2 {
+  font-size: 70px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; }
+
 .float-left {
   float: left; }
 
@@ -80,14 +87,11 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-.pageone h2 {
-  font-size: 70px;
-  margin-left: 15%; }
 .pageone #page-one-content {
   width: 50%;
   margin-top: 35px;
   position: relative;
-  margin-left: 15%; }
+  margin-left: 25%; }
 .pageone .it-campaign {
   margin-top: 5%; }
 .pageone .uconn-logo {
@@ -105,3 +109,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.pagetwo h2 {
+  margin-top: 20%; }
